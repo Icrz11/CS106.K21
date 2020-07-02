@@ -5,6 +5,9 @@
 Bên trong file Demo AI chứa biến Link - đây là biến đầu vào của chương trình chứa đường dẫn tới 1 ảnh (là file raw).
 Thay đổi giá trị biến Link này để dẫn tới các ảnh khác.
 
+Link drive chứa source code + model + data của chương trình 1: 
+https://drive.google.com/drive/u/0/folders/1UN1vxM62QX8G_IYvir0ZNtVOjcZacn1e
+
 ### Chương trình 2:
 - Chứa cách tải,sử dụng model có sẵn VGG-16 - quá trình Transfer learning - để rút trích đặc trưng. Sau đó được học bằng MLP ở 3 lớp Dense cuối.
 - Phần load lại model và dùng model để dự đoán hình ảnh sẽ ở phần cuối "Load Model". 
