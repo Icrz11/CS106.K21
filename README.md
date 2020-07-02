@@ -19,6 +19,9 @@ https://drive.google.com/drive/u/0/folders/1UN1vxM62QX8G_IYvir0ZNtVOjcZacn1e
   For instance id for download weights would be:
   1--MDCFnK20QN-lGezqp9uO-zk6dU80_k
 
+### Chương trình tự cài đặt:
+- Folder build from scratch có 2 file lý thuyết và cài đặt.
+
 ### Using drive-link:
 	from pydrive.auth import GoogleAuth
 	from pydrive.drive import GoogleDrive
