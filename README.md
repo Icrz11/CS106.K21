@@ -8,6 +8,7 @@ Thay đổi giá trị biến Link này để dẫn tới các ảnh khác.
 ### Chương trình 2:
 - Chứa cách tải,sử dụng model có sẵn VGG-16 - quá trình Transfer learning - để rút trích đặc trưng. Sau đó được học bằng MLP ở 3 lớp Dense cuối.
 - Phần load lại model và dùng model để dự đoán hình ảnh sẽ ở phần cuối "Load Model". 
+
 Model configs:
 https://drive.google.com/file/d/1-2A6Ur_aMdopQn1jR6S2mvNualeyE-lw/view?usp=sharing
 
