@@ -4,7 +4,10 @@
 2. DemoAI - file này dùng để Demo cho chương trình 1 này
 Bên trong file Demo AI chứa biến Link - đây là biến đầu vào của chương trình chứa đường dẫn tới 1 ảnh (là file raw).
 Thay đổi giá trị biến Link này để dẫn tới các ảnh khác.
+
 ### Chương trình 2:
+- Chứa cách tải,sử dụng model có sẵn VGG-16 - quá trình Transfer learning - để rút trích đặc trưng. Sau đó được học bằng MLP ở 3 lớp Dense cuối.
+- Phần load lại model và dùng model để dự đoán hình ảnh sẽ ở phần cuối "Load Model". 
 Model configs:
 https://drive.google.com/file/d/1-2A6Ur_aMdopQn1jR6S2mvNualeyE-lw/view?usp=sharing
 
