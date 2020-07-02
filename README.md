@@ -12,17 +12,14 @@ https://drive.google.com/drive/u/0/folders/1UN1vxM62QX8G_IYvir0ZNtVOjcZacn1e
 - Chứa cách tải,sử dụng model có sẵn VGG-16 - quá trình Transfer learning - để rút trích đặc trưng. Sau đó được học bằng MLP ở 3 lớp Dense cuối.
 - Phần load lại model và dùng model để dự đoán hình ảnh sẽ ở phần cuối "Load Model". 
 
-Model configs:
-https://drive.google.com/file/d/1-2A6Ur_aMdopQn1jR6S2mvNualeyE-lw/view?usp=sharing
+- Model configs:
+  https://drive.google.com/file/d/1-2A6Ur_aMdopQn1jR6S2mvNualeyE-lw/view?usp=sharing
+- Model weights:
+  https://drive.google.com/file/d/1--MDCFnK20QN-lGezqp9uO-zk6dU80_k/view?usp=sharing
+  Script for download model Weight:
 
-Model weights:
-https://drive.google.com/file/d/1--MDCFnK20QN-lGezqp9uO-zk6dU80_k/view?usp=sharing
-
-
-Script for download model Weight:
-
-For instance id for download weights would be:
-	1--MDCFnK20QN-lGezqp9uO-zk6dU80_k
+  For instance id for download weights would be:
+  1--MDCFnK20QN-lGezqp9uO-zk6dU80_k
 
 ### Using drive-link:
 	from pydrive.auth import GoogleAuth
