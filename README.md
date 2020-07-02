@@ -31,5 +31,5 @@ https://drive.google.com/drive/u/0/folders/1UN1vxM62QX8G_IYvir0ZNtVOjcZacn1e
 	downloaded.GetContentFile(os.path.join(data_dir, 'file_name.zip'))
 
 	# Hoặc là
-	from utils.import get_drive_file
+	from utils import get_drive_file
 	get_drive_file("1--MDCFnK20QN-lGezqp9uO-zk6dU80_k","dogsandcat_vgg16_model_tl.h5")
