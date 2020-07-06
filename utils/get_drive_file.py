@@ -1,6 +1,8 @@
 from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
-	
+from google.colab import auth
+from oauth2client.client import GoogleCredentials
+import os 
 def get_drive_file(ID,file_name):
 	# For example: "1-sltCi9nCSQmA-xaBPutq6Yfl6YONC_H" id of Tokenizer file
 	auth.authenticate_user()
